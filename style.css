@@ -51,7 +51,10 @@ body{
 	display: flex;
 	margin: 30px;
 	flex-direction: column;
-		
+  
+}
+.text > .quote{
+  font-size: 2rem
 }
 
 .generate{
@@ -246,10 +249,49 @@ align-items: center;
 
 
 @media screen and (max-width: 1200px) {
-   .container{
-  width: 100%;
+  .container{
+  width: 98%;
+  height: 60vh;
+  background-position: center top;
  
+}
+.text > .quote{
+  font-size: 4.5rem
+}
 
+.text h1{
+  font-size: 5rem
+}
+
+.author{
+  font-size: 2rem
+
+}
+.generate{
+  padding: 30px;
+  font-size: 2rem;
+  box-shadow: 2px 2px 2px rgb(0,0,0,0.1);
+  margin-top: 100px;
+  width: 50%;
+  margin-left: auto;
+  transform: translate(-50%, -50%);
+  
+}
+
+.tweet{
+  padding: 30px;
+  font-size: 2rem;
+  width: 50%;
+  margin-left: auto;
+  transform: translate(-50%, -50%);
+    
+}
+
+.generate:hover{
+  opacity: 1
+}
+.tweet:hover{
+  opacity: 1
 }
 
 
