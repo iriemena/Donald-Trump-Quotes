@@ -271,28 +271,35 @@ body {
 		width: 98%;
 		height: 60vh;
 		background-position: center top;
+		margin-bottom: 0;
 	}
 	.text > .quote {
-		font-size: 4.5rem;
+		font-size: 1.7rem;
+		
 	}
 
 	.text h1 {
 		font-size: 2rem;
 	}
-
+	.text .error{
+		font-size: 0.9rem;
+	}
 	.author {
 		font-size: 2rem;
 	}
 	.generate {
-		padding: 20px;
+		padding: 15px;
 		font-size: 1.5rem;
 		box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
 		margin-top: 50px;
+		height: 100%;
+		
 	}
 
 	.tweet {
-		padding: 20px;
+		padding: 15px;
 		font-size: 1.5rem;
+		height: 100%;
 	}
 
 	.generate:hover {
@@ -301,4 +308,9 @@ body {
 	.tweet:hover {
 		opacity: 1;
 	}
+
+	.sk-circle {
+		margin: 0 auto;
+	}
+	
 }
