@@ -14,7 +14,7 @@ body {
 }
 .container {
 	background: white;
-	width: 50%;
+	width: 95%;
 	border-radius: 10px;
 	position: relative;
 	text-align: center;
@@ -35,12 +35,12 @@ body {
 }
 
 .text p {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	text-align: justify;
 }
 .text h1 {
 	margin: 10px;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 .quote {
@@ -50,7 +50,7 @@ body {
 	flex-direction: column;
 }
 .text > .quote {
-	font-size: 2rem;
+	font-size: 1rem;
 }
 
 .generate {
@@ -266,9 +266,9 @@ body {
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1024px) {
 	.container {
-		width: 98%;
+		width: 60%;
 		height: 60vh;
 		background-position: center top;
 		
